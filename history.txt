@@ -1,0 +1,15 @@
+   31  curl https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv -o wilders.csv
+   32  grep -i "france,2019,php" wilders.csv | wc -l > php_france_2019.csv
+   33  cat php_france_2019
+   34  cat php_france_2019.csv
+   35  grep -i "javascript" wilders.csv > jswilders.csv
+   36  cat jswilders.csv
+   37  grep -i"toulouse" jswilders.csv > jstoulouse.csv
+   38  grep -i "toulouse" jswilders.csv > jstoulouse.csv
+   39  cat jstoulouse.csv
+   40  grep -i "biarritz" jswilders.csv > jsbiarritz.csv
+   41  cat jsbiarritz.csv
+   42  cat jsbiarritz.csv jstoulouse.csv > javascript_biarritz_toulouse.csv
+   43  history
+   44  history | tail -15
+   45  history | tail -15 > history.txt
